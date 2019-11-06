@@ -1,0 +1,9 @@
+﻿  해커톤- WinAPI.cpp
+C:\Users\Korean\source\repos\apple01644\han_story\해커톤- 프로젝트\HanStorySystem.hpp(13,26): warning C4091:  'extern ': ignored on left of 'EventManager' when no variable is declared
+C:\Users\Korean\source\repos\apple01644\han_story\해커톤- WinAPI\삼국시대&남북국시대.hpp(851,36): warning C4834:  discarding return value of function with 'nodiscard' attribute
+C:\Users\Korean\source\repos\apple01644\han_story\해커톤- WinAPI\삼국시대&남북국시대.hpp(853,36): warning C4834:  discarding return value of function with 'nodiscard' attribute
+C:\Users\Korean\source\repos\apple01644\han_story\해커톤- WinAPI\resource.h(14,1): warning C4005:  'IDOK': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11108): message :  see previous definition of 'IDOK'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.rh(1437): warning RC4005: 'IDOK' : redefinition
+  
+  해커톤- WinAPI.vcxproj -> C:\Users\Korean\Source\Repos\apple01644\han_story\x64\Debug\해커톤- WinAPI.exe

@@ -3,3 +3,16 @@
 ################################################################################
 
 /.vs/해커톤- 프로젝트/v16/Browse.VC.db
+*.db
+*.opendb
+*.sqlite
+*.db-shm
+*.db-wal
+*.exe
+*.ilk
+*.pdb
+*.tlog
+*.idb
+*.suo
+/.vs/VSWorkspaceState.json
+/.vs/ProjectSettings.json
