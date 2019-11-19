@@ -9,6 +9,7 @@ void Load(EventManager& evt_mng)
 
 		e->content = "국가를 선택해 주세요. 국가마다 다양한 차이점이 있으니 신중하게 골라야 합니다.";
 
+
 		e->CanStart = [&](Gamedata& data) {
 			return data.dict["플레이어"] == "";
 		};
@@ -36,7 +37,9 @@ void Load(EventManager& evt_mng)
 
 		{
 			EventSelectItemMaker s(e, "고구려");
+
 			s->content = "고구려는 기름진 부여땅을 가지고 있으며 대규모로 말을 훈련할 수 있는 큰 평야를 가지고 있습니다.";
+
 
 			s->Effect = [&](Gamedata& data) {
 				data.dict["플레이어"] = "고구려";
@@ -53,6 +56,7 @@ void Load(EventManager& evt_mng)
 			"최근 왜구가 하나의 나라로 통일되었고\n\
 그 영향으로 왜구의 침략이 조직적이고 변화 하였습니다.\n\
 그에 비해 우리의 수군은 왜군이 쓸고지나간 자리의 \n\
+
 눈 뜨고 지켜볼 수 밖에 없습니다.\n\
 우리는 이를 막기 위해 대책을 세워야 합니다.";
 
